@@ -1,6 +1,6 @@
 class jual_beli:
   #fungsi rumus harga kali banyak barang
-  def harga_total(int harga_satuan, int jumlah_barang):
+  def harga_total(harga_satuan, jumlah_barang):
     return harga_satuan*jumlah_barang
   
  #fungsi tanpa kembalian berisi identitas kelompok 
@@ -12,8 +12,7 @@ class jual_beli:
     print("Rafif ....")
   
 #program main/untuk eksekusi
-
-  
+x="y"
   #perulangan berupa jumlah berapa kali transksi
 while(x=="y"):
     #switch case pada python menggunakan array. sebagai datalist barang yang tersedia untuk pemilihan barang.
@@ -27,9 +26,17 @@ while(x=="y"):
   
   
   
+  
     
   x=input("Beli barang lain?("y"=yes,selain itu dianggap no) ")   
   
   
 #penjelasan
 Program ini merupakan program sederhana yang berfungsi melakukan mekanisme perhitungan jual beli.
+disini dalam class yang bernama jual_beli, terdapat 2 fungsi method yaitu yang pertama adalah
+yang pertama adalah fungsi harga_total yang merupakan fungsi kembalian yang mengembalikan nilai dari parameternya
+yaitu mengembalikan operasi perkalian variabel harga_satuan dan jumlah_barang. selanjutnya merupakan fungsi identitas_kelompok yang akan mengeluarkan beberapa output.
+
+
+
+
